@@ -1,0 +1,59 @@
+body{
+    background-image: url(recursos/img/nocturno.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.nav-header{    
+    backdrop-filter: blur(20px);
+    color: #ffffff;
+    width: 99%;
+    height: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    margin-left: 4px;
+    display: flex;
+}
+
+.head{
+    background-color: transparent;
+    width: 68%;
+    color: #ffffff;
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+}
+
+.li-header{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #2a4deb;
+    transition: 0.5s;
+}
+
+header h1{
+    color: #ffffff;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
