@@ -27,7 +27,7 @@ body{
     height: 60px;
 }
 
-ul{
+nav ul{
     display: flex;
     justify-content: flex-end;
     list-style: none;
@@ -56,4 +56,52 @@ header h1{
     font-size: 30px;
     margin-top: 15px;
 }
+
+.contenedor{
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #2a4deb;
+    backdrop-filter: blur(20px);
+    color: #ffffff;
+    display: flex;
+}
+
+.grande{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.sobremi{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.misdatos{
+    border: solid;
+    padding-left: 20px;
+}
+
+.fotosmias{
+    width: 80%;
+}
+
+.losdatos{
+    display: flex;
+    gap: 80px;
+}
+
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    margin-left: -10px;
+}
+
+
 
