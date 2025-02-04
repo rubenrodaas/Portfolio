@@ -57,7 +57,7 @@ a:hover{
 header h1{
     color: #ffffff;
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 21px;
     margin-top: 15px;
 }
 
@@ -101,6 +101,18 @@ header h1{
     padding-left: 20px;
     padding-bottom: 20px;
     
+}
+
+.botongithub{
+    background-color: #2a4deb;
+    border-radius: 10px;
+    border: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    height: 20px;
+    outline: 0;
+    text-align: center;
 }
 
 .losdatos{
